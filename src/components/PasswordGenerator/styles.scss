@@ -1,0 +1,21 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  & + .slider {
+    margin-top: 1rem;
+  }
+
+  label {
+    width: 4rem;
+  }
+
+  input[type="range"] {
+    flex-grow: 1;
+  }
+  span {
+    width: 2ch;
+  }
+}

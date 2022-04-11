@@ -1,0 +1,33 @@
+.password-box {
+  height: 11rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+
+  p {
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    width: 40ch;
+    padding: 1ch;
+    font-size: 1rem;
+    font-family: monospace;
+    word-break: break-all;
+    border-radius: 0.5rem;
+    font-size: 1.75rem;
+  }
+
+  .letter {
+    color: #555;
+  }
+
+  .symbol {
+    color: #c6538c;
+  }
+
+  .digit {
+    color: orange;
+  }
+}
